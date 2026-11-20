@@ -45,7 +45,9 @@ $navItems = [
         <div class="flex items-center gap-2.5 shrink-0">
             <a
                 class="hidden sm:inline-flex items-center justify-center gap-2 bg-gold-400 hover:bg-gold-300 text-navy-950 font-semibold text-xs px-4 h-10 rounded-md shadow-sm transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-gold-300 focus:ring-offset-2 focus:ring-offset-navy-900"
-                href="<?= e(app_url('/kontak')) ?>"
+                href="<?= e(dpp_wa_url('Halo Dunia Pool & Pond, saya ingin berkonsultasi mengenai kebutuhan proyek kolam renang.')) ?>"
+                rel="noopener noreferrer"
+                target="_blank"
             >
                 <span data-i18n-en="Consult Now" data-i18n-id="Konsultasi Proyek">Konsultasi Proyek</span>
                 <?= render_icon('whatsapp-chat', 'w-4 h-4 text-navy-950') ?>
@@ -140,7 +142,12 @@ $navItems = [
             </a>
         <?php endforeach; ?>
         <div class="pt-3 border-t border-white/10 sm:hidden">
-            <a class="w-full inline-flex items-center justify-center gap-2 bg-gold-400 hover:bg-gold-300 text-navy-950 font-semibold text-xs px-4 h-10 rounded-md transition-colors" href="<?= e(app_url('/kontak')) ?>">
+            <a
+                class="w-full inline-flex items-center justify-center gap-2 bg-gold-400 hover:bg-gold-300 text-navy-950 font-semibold text-xs px-4 h-10 rounded-md transition-colors"
+                href="<?= e(dpp_wa_url('Halo Dunia Pool & Pond, saya ingin berkonsultasi mengenai kebutuhan proyek kolam renang.')) ?>"
+                rel="noopener noreferrer"
+                target="_blank"
+            >
                 <span data-i18n-en="Consult Now" data-i18n-id="Konsultasi Proyek">Konsultasi Proyek</span>
                 <?= render_icon('whatsapp-chat', 'w-4 h-4 text-navy-950') ?>
             </a>

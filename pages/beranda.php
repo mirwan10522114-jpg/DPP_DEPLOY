@@ -115,10 +115,12 @@ require __DIR__ . '/../includes/header.php';
                 <div class="mt-7 flex flex-wrap items-center gap-3.5 sm:gap-4">
                     <a
                         class="inline-flex items-center justify-center gap-2.5 bg-gold-400 hover:bg-gold-300 text-navy-950 font-semibold text-xs sm:text-[14px] px-6 sm:px-7 h-11 sm:h-12 rounded-md shadow-md transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-gold-300 focus:ring-offset-2 focus:ring-offset-navy-900"
-                        href="<?= e(app_url('/kontak')) ?>"
+                        href="<?= e(dpp_wa_url('Halo Dunia Pool & Pond, saya ingin berkonsultasi mengenai kebutuhan proyek kolam renang.')) ?>"
+                        rel="noopener noreferrer"
+                        target="_blank"
                     >
                         <span data-i18n-en="Consult Your Pool" data-i18n-id="Konsultasi Proyek">Konsultasi Proyek</span>
-                        <?= render_icon('arrow-right', 'w-4 h-4') ?>
+                        <?= render_icon('whatsapp-chat', 'w-4 h-4') ?>
                     </a>
                     <a
                         class="inline-flex items-center justify-center gap-3 bg-navy-900/55 hover:bg-white/10 border border-white/35 hover:border-gold-400/75 text-white font-medium text-xs sm:text-[14px] px-5 sm:px-6 h-11 sm:h-12 rounded-md backdrop-blur-sm transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-gold-400"
