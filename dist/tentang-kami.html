@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="id">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tentang Kami — Dunia Pool &amp; Pond (Sejak 1997)</title>
+    <meta content="Dunia Pool &amp; Pond adalah spesialis konstruksi kolam renang, sistem sirkulasi &amp; filtrasi, pengadaan peralatan filter &amp; pompa, bahan kimia, serta perawatan kolam sejak 1997 di Padalarang, Bandung Barat." name="description" />
+    <link href="/images/brand/favicon-dpp.png?v=b26736a7" rel="icon" type="image/png" />
+
+    <!-- Google Fonts: Playfair Display (Editorial Serif) & Plus Jakarta Sans (Corporate UI Sans) -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            950: '#071322',
+                            900: '#09182B',
+                            850: '#0A1C32',
+                            800: '#0E223B',
+                            700: '#162F4F',
+                        },
+                        gold: {
+                            300: '#EDD093',
+                            400: '#DFB465',
+                            500: '#CFA04E',
+                            600: '#B8893A',
+                            700: '#966D28',
+                        },
+                        cream: {
+                            50: '#FBFAF8',
+                            100: '#F6F2EA',
+                            200: '#EDE6D8',
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'Georgia', 'Cambria', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'card-soft': '0 4px 24px rgba(9, 24, 43, 0.045)',
+                        'card-hover': '0 14px 34px rgba(9, 24, 43, 0.09)',
+                    }
+                }
+            }
+        };
+    </script>
+    <style>
+        @media (prefers-reduced-motion: no-preference) {
+            .reveal-up {
+                opacity: 0;
+                transform: translateY(18px);
+                transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+            }
+            .reveal-up.is-visible {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-navy-900 font-sans antialiased selection:bg-gold-400/30 selection:text-navy-950 flex flex-col min-h-screen">
+<a class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-md focus:bg-gold-400 focus:text-navy-900 focus:font-semibold focus:text-sm focus:shadow-lg" href="#main-content">
+    Lewati ke konten utama
+</a>
+<header class="sticky top-0 z-50 w-full bg-navy-900/95 backdrop-blur-md border-b border-white/[0.07] transition-colors duration-200">
+    <div class="max-w-[1340px] mx-auto px-5 sm:px-8 lg:px-10 h-20 flex items-center justify-between gap-4">
+        <!-- Brand Logo -->
+        <a aria-label="Dunia Pool &amp; Pond — Beranda" class="shrink-0 rounded-md focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2 focus:ring-offset-navy-900" href="/">
+                <span class="inline-flex flex-col text-left select-none">
+        <span class="font-sans font-bold text-white uppercase leading-none text-[15px] sm:text-[17px] tracking-[0.13em]">DUNIA POOL &amp; POND</span>
+        <span class="font-sans font-semibold text-gold-400/90 uppercase leading-none mt-1.5 text-[9.5px] sm:text-[10px] tracking-[0.24em]">THE POOL SPECIALIST • 1997</span>
+    </span>        </a>
+
+        <!-- Desktop Navigation -->
+        <nav aria-label="Navigasi Utama" class="hidden xl:flex items-center gap-5">
+                                            <a
+                                        class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-white/85 hover:text-gold-400"
+                    data-i18n-en="Home"
+                    data-i18n-id="Beranda"
+                    href="/"
+                >
+                    <span>Beranda</span>
+                                    </a>
+                                            <a
+                    aria-current="page"                    class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-gold-400 font-semibold"
+                    data-i18n-en="About Us"
+                    data-i18n-id="Tentang Kami"
+                    href="/tentang-kami"
+                >
+                    <span>Tentang Kami</span>
+                                            <span aria-hidden="true" class="absolute left-1/2 -translate-x-1/2 -bottom-0.5 w-5 h-[2px] rounded-full bg-gold-400"></span>
+                                    </a>
+                                            <a
+                                        class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-white/85 hover:text-gold-400"
+                    data-i18n-en="Services"
+                    data-i18n-id="Layanan"
+                    href="/layanan"
+                >
+                    <span>Layanan</span>
+                                    </a>
+                                            <a
+                                        class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-white/85 hover:text-gold-400"
+                    data-i18n-en="Projects"
+                    data-i18n-id="Proyek"
+                    href="/proyek"
+                >
+                    <span>Proyek</span>
+                                    </a>
+                                            <a
+                                        class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-white/85 hover:text-gold-400"
+                    data-i18n-en="Gallery"
+                    data-i18n-id="Galeri"
+                    href="/galeri"
+                >
+                    <span>Galeri</span>
+                                    </a>
+                                            <a
+                                        class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-white/85 hover:text-gold-400"
+                    data-i18n-en="Project SOP"
+                    data-i18n-id="Manajemen Proyek"
+                    href="/manajemen-proyek"
+                >
+                    <span>Manajemen Proyek</span>
+                                    </a>
+                                            <a
+                                        class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-white/85 hover:text-gold-400"
+                    data-i18n-en="Products"
+                    data-i18n-id="Produk"
+                    href="/produk"
+                >
+                    <span>Produk</span>
+                                    </a>
+                                            <a
+                                        class="relative py-2 text-[13.5px] font-medium tracking-wide whitespace-nowrap transition-colors duration-150 focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-400 rounded-sm text-white/85 hover:text-gold-400"
+                    data-i18n-en="Contact"
+                    data-i18n-id="Kontak"
+                    href="/kontak"
+                >
+                    <span>Kontak</span>
+                                    </a>
+                    </nav>
+
+        <!-- Right CTA & Language Selector -->
+        <div class="flex items-center gap-2.5 shrink-0">
+            <a
+                class="hidden sm:inline-flex items-center justify-center gap-2 bg-gold-400 hover:bg-gold-300 text-navy-950 font-semibold text-xs px-4 h-10 rounded-md shadow-sm transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-gold-300 focus:ring-offset-2 focus:ring-offset-navy-900"
+                href="/kontak"
+            >
+                <span data-i18n-en="Consult Now" data-i18n-id="Konsultasi Proyek">Konsultasi Proyek</span>
+                <svg aria-hidden="true" class="w-4 h-4 text-navy-950" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.188 8.188 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01Z"/></svg>            </a>
+
+            <!-- Language Switcher Dropdown -->
+            <div class="relative">
+                <button
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    aria-label="Pilih bahasa"
+                    class="inline-flex items-center justify-center gap-2 h-10 px-3 rounded-md border border-white/25 hover:border-gold-400/70 text-white text-xs font-medium transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-gold-400"
+                    id="langDropdownBtn"
+                    type="button"
+                >
+                    <svg aria-hidden="true" class="lang-flag-id w-5 h-3.5 rounded-[2px] ring-1 ring-white/25 overflow-hidden shrink-0" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="8" fill="#CE1126" />
+                        <rect y="8" width="24" height="8" fill="#FFFFFF" />
+                    </svg>
+                    <svg aria-hidden="true" class="lang-flag-en hidden w-5 h-3.5 rounded-[2px] ring-1 ring-white/25 overflow-hidden shrink-0" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="16" fill="#012169" />
+                        <path d="M0 0L24 16M24 0L0 16" stroke="#FFFFFF" stroke-width="3.2" />
+                        <path d="M0 0L24 16M24 0L0 16" stroke="#C8102E" stroke-width="1.4" />
+                        <path d="M12 0V16M0 8H24" stroke="#FFFFFF" stroke-width="4.8" />
+                        <path d="M12 0V16M0 8H24" stroke="#C8102E" stroke-width="2.6" />
+                    </svg>
+                    <span id="currentLangLabel">ID</span>
+                    <svg aria-hidden="true" class="w-3.5 h-3.5 text-white/75" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 16 16">
+                        <path d="M4 6l4 4 4-4" />
+                    </svg>
+                </button>
+                <div
+                    aria-labelledby="langDropdownBtn"
+                    class="hidden absolute right-0 mt-2 w-44 rounded-lg bg-navy-850 border border-white/15 shadow-xl py-1 z-50 text-xs text-white"
+                    id="langDropdownMenu"
+                    role="menu"
+                >
+                    <button class="w-full px-3.5 py-2.5 text-left hover:bg-white/10 flex items-center justify-between gap-2 font-medium text-gold-400 transition-colors" data-set-lang="id" role="menuitem" type="button">
+                        <span class="inline-flex items-center gap-2.5">
+                            <svg aria-hidden="true" class="w-5 h-3.5 rounded-[2px] ring-1 ring-white/25 overflow-hidden shrink-0" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="8" fill="#CE1126" />
+                                <rect y="8" width="24" height="8" fill="#FFFFFF" />
+                            </svg>
+                            <span>Indonesia (ID)</span>
+                        </span>
+                        <span class="lang-check-id">✓</span>
+                    </button>
+                    <button class="w-full px-3.5 py-2.5 text-left hover:bg-white/10 flex items-center justify-between gap-2 font-medium text-white/85 transition-colors" data-set-lang="en" role="menuitem" type="button">
+                        <span class="inline-flex items-center gap-2.5">
+                            <svg aria-hidden="true" class="w-5 h-3.5 rounded-[2px] ring-1 ring-white/25 overflow-hidden shrink-0" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="16" fill="#012169" />
+                                <path d="M0 0L24 16M24 0L0 16" stroke="#FFFFFF" stroke-width="3.2" />
+                                <path d="M0 0L24 16M24 0L0 16" stroke="#C8102E" stroke-width="1.4" />
+                                <path d="M12 0V16M0 8H24" stroke="#FFFFFF" stroke-width="4.8" />
+                                <path d="M12 0V16M0 8H24" stroke="#C8102E" stroke-width="2.6" />
+                            </svg>
+                            <span>English (EN)</span>
+                        </span>
+                        <span class="lang-check-en hidden">✓</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button
+                aria-controls="mobileNavDrawer"
+                aria-expanded="false"
+                aria-label="Buka menu navigasi"
+                class="xl:hidden inline-flex items-center justify-center w-10 h-10 rounded-md border border-white/20 text-white hover:border-gold-400 hover:text-gold-400 transition-colors focus:outline-none focus:ring-2 focus:ring-gold-400"
+                id="mobileMenuBtn"
+                type="button"
+            >
+                <svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24">
+                    <path d="M4 7h16M4 12h16M4 17h16" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="hidden xl:hidden bg-navy-900 border-t border-white/10 px-5 sm:px-8 py-4 space-y-1.5 shadow-2xl" id="mobileNavDrawer">
+                                <a
+                                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors text-white/85 hover:bg-white/[0.04] hover:text-gold-400"
+                data-i18n-en="Home"
+                data-i18n-id="Beranda"
+                href="/"
+            >
+                Beranda            </a>
+                                <a
+                aria-current="page"                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors bg-white/[0.06] text-gold-400 font-semibold border-l-2 border-gold-400"
+                data-i18n-en="About Us"
+                data-i18n-id="Tentang Kami"
+                href="/tentang-kami"
+            >
+                Tentang Kami            </a>
+                                <a
+                                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors text-white/85 hover:bg-white/[0.04] hover:text-gold-400"
+                data-i18n-en="Services"
+                data-i18n-id="Layanan"
+                href="/layanan"
+            >
+                Layanan            </a>
+                                <a
+                                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors text-white/85 hover:bg-white/[0.04] hover:text-gold-400"
+                data-i18n-en="Projects"
+                data-i18n-id="Proyek"
+                href="/proyek"
+            >
+                Proyek            </a>
+                                <a
+                                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors text-white/85 hover:bg-white/[0.04] hover:text-gold-400"
+                data-i18n-en="Gallery"
+                data-i18n-id="Galeri"
+                href="/galeri"
+            >
+                Galeri            </a>
+                                <a
+                                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors text-white/85 hover:bg-white/[0.04] hover:text-gold-400"
+                data-i18n-en="Project SOP"
+                data-i18n-id="Manajemen Proyek"
+                href="/manajemen-proyek"
+            >
+                Manajemen Proyek            </a>
+                                <a
+                                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors text-white/85 hover:bg-white/[0.04] hover:text-gold-400"
+                data-i18n-en="Products"
+                data-i18n-id="Produk"
+                href="/produk"
+            >
+                Produk            </a>
+                                <a
+                                class="block px-3 py-2.5 rounded-md text-sm font-medium transition-colors text-white/85 hover:bg-white/[0.04] hover:text-gold-400"
+                data-i18n-en="Contact"
+                data-i18n-id="Kontak"
+                href="/kontak"
+            >
+                Kontak            </a>
+                <div class="pt-3 border-t border-white/10 sm:hidden">
+            <a class="w-full inline-flex items-center justify-center gap-2 bg-gold-400 hover:bg-gold-300 text-navy-950 font-semibold text-xs px-4 h-10 rounded-md transition-colors" href="/kontak">
+                <span data-i18n-en="Consult Now" data-i18n-id="Konsultasi Proyek">Konsultasi Proyek</span>
+                <svg aria-hidden="true" class="w-4 h-4 text-navy-950" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.188 8.188 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01Z"/></svg>            </a>
+        </div>
+    </div>
+</header>
+
+<main class="flex-grow" id="main-content">
+    <!-- Page Hero -->
+        <section class="relative overflow-hidden bg-navy-900 text-white py-16 sm:py-20 border-b border-white/10">
+        <!-- Subtle Right-Side Photo Texture + Smooth Directional Navy Readability Gradient -->
+        <div aria-hidden="true" class="pointer-events-none absolute inset-0 z-0">
+            <img alt="" class="w-full h-full object-cover object-right opacity-[0.14] mix-blend-luminosity" loading="eager" src="/images/hero/kolam-utama.jpg?v=573cc561" />
+            <div class="absolute inset-0" style="background: linear-gradient(95deg, #09182B 0%, rgba(9, 24, 43, 0.96) 52%, rgba(10, 28, 50, 0.82) 78%, rgba(9, 24, 43, 0.88) 100%);"></div>
+        </div>
+
+        <!-- Restrained Luxury Gold & Thin Contour Accents on Right Negative Space -->
+        <svg aria-hidden="true" class="pointer-events-none select-none absolute inset-0 w-full h-full z-0" preserveAspectRatio="xMidYMid slice" viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="pageHeroGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#F0CB7E" />
+                    <stop offset="55%" stop-color="#DFB465" />
+                    <stop offset="100%" stop-color="#B8893A" />
+                </linearGradient>
+                <radialGradient id="pageHeroGlow" cx="84%" cy="52%" r="34%">
+                    <stop offset="0%" stop-color="#DFB465" stop-opacity="0.14" />
+                    <stop offset="100%" stop-color="#09182B" stop-opacity="0" />
+                </radialGradient>
+            </defs>
+
+            <rect width="1440" height="320" fill="url(#pageHeroGlow)" />
+
+            <!-- Upper-Right Soft Organic Gold Swoop + Thin White Offset Contour -->
+            <path d="M930 0 C948 48, 1005 66, 1072 42 C1116 26, 1152 10, 1188 0 Z" fill="url(#pageHeroGoldGrad)" fill-opacity="0.88" />
+            <path d="M908 0 C930 64, 998 86, 1080 55 C1130 36, 1170 14, 1212 0" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.25" />
+
+            <!-- Bottom-Right Warm Gold Corner Wedge + Subtle Arc & Diagonal Line -->
+            <path d="M1185 320 L1440 205 L1440 320 Z" fill="url(#pageHeroGoldGrad)" fill-opacity="0.85" />
+            <circle cx="1365" cy="315" r="108" stroke="#DFB465" stroke-opacity="0.28" stroke-width="1.25" />
+            <line x1="1035" y1="320" x2="1440" y2="152" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="1.25" />
+            <line x1="1085" y1="320" x2="1440" y2="173" stroke="#DFB465" stroke-opacity="0.25" stroke-width="1" />
+
+            <!-- Subtle Top-Right Gold Dot Cluster -->
+            <circle cx="1320" cy="30" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1336" cy="30" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1352" cy="30" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1368" cy="30" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1384" cy="30" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1336" cy="46" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1352" cy="46" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1368" cy="46" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1384" cy="46" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1352" cy="62" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1368" cy="62" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1384" cy="62" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1368" cy="78" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1384" cy="78" r="2.2" fill="#DFB465" fill-opacity="0.72" /><circle cx="1384" cy="94" r="2.2" fill="#DFB465" fill-opacity="0.72" />
+        </svg>
+
+        <div class="max-w-[1260px] mx-auto px-5 sm:px-8 lg:px-10 relative z-10">
+            <div class="inline-flex items-center gap-2.5 mb-2.5">
+                <span aria-hidden="true" class="w-6 h-[2px] rounded-full bg-gold-400"></span>
+                <p class="text-gold-400 text-xs font-bold uppercase tracking-[0.18em]" data-i18n-en="ABOUT US" data-i18n-id="TENTANG KAMI">TENTANG KAMI</p>
+            </div>
+            <h1 class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-semibold leading-tight max-w-3xl" data-i18n-en="Over Two Decades of Precision Swimming Pool Engineering" data-i18n-id="Spesialis Konstruksi &amp; Sistem Sirkulasi Kolam Renang Sejak 1997">
+                Spesialis Konstruksi &amp; Sistem Sirkulasi Kolam Renang Sejak 1997
+            </h1>
+            <p class="text-white/80 text-sm sm:text-base leading-relaxed mt-4 max-w-2xl" data-i18n-en="Headquartered in Padalarang, West Bandung Regency, West Java — prioritizing watertight structural precision, calibrated water circulation, and certified original equipment." data-i18n-id="Berbasis di Padalarang, Kabupaten Bandung Barat, Jawa Barat — mengutamakan ketelitian konstruksi kedap air, perhitungan debit sirkulasi terukur, dan peralatan orisinil bergaransi.">
+                Berbasis di Padalarang, Kabupaten Bandung Barat, Jawa Barat — mengutamakan ketelitian konstruksi kedap air, perhitungan debit sirkulasi terukur, dan peralatan orisinil bergaransi.
+            </p>
+        </div>
+    </section>
+    <!-- Profil & Sejarah -->
+    <section class="py-16 sm:py-20 bg-white">
+        <div class="max-w-[1260px] mx-auto px-5 sm:px-8 lg:px-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+            <div class="lg:col-span-7 space-y-5 text-sm sm:text-[15px] text-[#4A5668] leading-relaxed">
+                <h2 class="font-serif text-2xl sm:text-3xl font-semibold text-navy-900" data-i18n-en="Dunia Pool &amp; Pond Overview" data-i18n-id="Sekilas Dunia Pool &amp; Pond">Sekilas Dunia Pool &amp; Pond</h2>
+                <p data-i18n-en="Dunia Pool &amp; Pond was officially established on August 10, 1997 in Padalarang, West Bandung Regency, West Java. Starting as a dedicated local pool builder, we have continuously expanded to handle architectural &amp; circulation planning, reinforced concrete swimming pool and koi pond construction, pump room engineering, equipment procurement, routine maintenance, and after-sales service." data-i18n-id="Dunia Pool &amp; Pond berdiri resmi pada 10 Agustus 1997 di Padalarang, Kabupaten Bandung Barat, Jawa Barat. Berawal sebagai kontraktor kolam lokal, kami terus berkembang menangani perencanaan arsitektural &amp; sirkulasi, konstruksi sipil kolam renang dan kolam ikan hias, instalasi ruang mesin, pengadaan peralatan resmi, perawatan berkala, hingga dukungan purna jual.">
+                    <strong class="text-navy-900">Dunia Pool &amp; Pond</strong> berdiri resmi pada <strong class="text-navy-900">10 Agustus 1997</strong> di Padalarang, Kabupaten Bandung Barat, Jawa Barat. Berawal sebagai kontraktor kolam lokal, kami terus berkembang menangani perencanaan arsitektural &amp; sirkulasi, konstruksi sipil kolam renang dan kolam ikan hias, instalasi ruang mesin, pengadaan peralatan resmi, perawatan berkala, hingga dukungan purna jual.
+                </p>
+                <p data-i18n-en="Every project adheres to structural and circulation precision: accurate shell reinforcement, multi-layer waterproofing membranes, mandatory Class AW PVC pipe hydrostatic pressure testing before concealment, and precise pump-to-filter matching to guarantee long-term water clarity and energy savings." data-i18n-id="Setiap pekerjaan kami berpedoman pada ketelitian konstruksi dan mekanikal air: pengerjaan struktur kolam yang terukur, pelapisan waterproofing menyeluruh, hydrostatic pressure test pipa PVC kelas AW sebelum penutupan jalur, serta penyelarasan kapasitas pompa dengan media filtrasi agar kejernihan air terjaga efisien dalam jangka panjang.">
+                    Setiap pekerjaan kami berpedoman pada ketelitian konstruksi dan mekanikal air: pengerjaan struktur kolam yang terukur, pelapisan waterproofing menyeluruh, <em>hydrostatic pressure test</em> pipa PVC kelas AW sebelum penutupan jalur, serta penyelarasan kapasitas pompa dengan media filtrasi agar kejernihan air terjaga efisien dalam jangka panjang.
+                </p>
+
+                <!-- 4 Standar Teknis Korporasi -->
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-3">
+                    <div class="p-4 rounded-xl bg-cream-50 border border-[#EFECE5]">
+                        <p class="text-xl sm:text-2xl font-bold text-navy-900" data-i18n-en="Aug 10, 1997" data-i18n-id="- 1997">- 1997</p>
+                        <p class="text-xs text-[#5D697A] mt-1" data-i18n-en="Est. (27+ Years)" data-i18n-id="Berdiri Resmi (27+ Tahun)">Berdiri Resmi (27+ Tahun)</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-cream-50 border border-[#EFECE5]">
+                        <p class="text-xl sm:text-2xl font-bold text-navy-900" data-i18n-en="8 Services" data-i18n-id="8 Layanan">8 Layanan</p>
+                        <p class="text-xs text-[#5D697A] mt-1" data-i18n-en="Build &amp; Maintenance" data-i18n-id="Solusi Konstruksi &amp; Perawatan">Solusi Konstruksi &amp; Perawatan</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-cream-50 border border-[#EFECE5]">
+                        <p class="text-xl sm:text-2xl font-bold text-navy-900" data-i18n-en="3×24 Hours" data-i18n-id="Uji 3×24 Jam">Uji 3×24 Jam</p>
+                        <p class="text-xs text-[#5D697A] mt-1" data-i18n-en="Pressure &amp; Soak Tests" data-i18n-id="Uji Tekan Pipa &amp; Rendam Bak">Uji Tekan Pipa &amp; Rendam Bak</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-cream-50 border border-[#EFECE5]">
+                        <p class="text-xl sm:text-2xl font-bold text-navy-900" data-i18n-en="SNI / APSP" data-i18n-id="SNI / APSP">SNI / APSP</p>
+                        <p class="text-xs text-[#5D697A] mt-1" data-i18n-en="TDH &amp; Turnover Sizing" data-i18n-id="Kalkulasi TDH &amp; Turnover Air">Kalkulasi TDH &amp; Turnover Air</p>
+                    </div>
+                </div>
+
+                <!-- 3 Prinsip Kerja -->
+                <div class="pt-4 space-y-3">
+                    <div class="p-4 rounded-xl border border-[#EFECE5] bg-white shadow-card-soft flex flex-col sm:flex-row sm:items-baseline gap-1.5 sm:gap-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-600 shrink-0 w-28" data-i18n-en="01 • MEASURED" data-i18n-id="01 • TERUKUR">01 • TERUKUR</span>
+                        <p class="text-xs sm:text-sm text-[#4A5668]" data-i18n-en="Precision Circulation Engineering: Exact pipe dimensioning, pump flow curve matching, and turnover rate calculated strictly against total water cubic volume." data-i18n-id="Sistem Sirkulasi Presisi: Perhitungan jalur pipa, debit pompa, dan turnover rate sesuai volume kubikasi air kolam."><strong class="text-navy-900">Sistem Sirkulasi Presisi:</strong> Perhitungan jalur pipa, debit pompa, dan turnover rate sesuai volume kubikasi air kolam.</p>
+                    </div>
+                    <div class="p-4 rounded-xl border border-[#EFECE5] bg-white shadow-card-soft flex flex-col sm:flex-row sm:items-baseline gap-1.5 sm:gap-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-600 shrink-0 w-28" data-i18n-en="02 • CLEAR" data-i18n-id="02 • JELAS">02 • JELAS</span>
+                        <p class="text-xs sm:text-sm text-[#4A5668]" data-i18n-en="BOQ &amp; Material Transparency: Concrete specs, membrane waterproofing brands, and equipment models explicitly stated without hidden charges." data-i18n-id="Transparansi RAB &amp; Material: Spesifikasi beton, waterproofing, dan merek mesin tercantum tegas tanpa biaya tersembunyi."><strong class="text-navy-900">Transparansi RAB &amp; Material:</strong> Spesifikasi beton, waterproofing, dan merek mesin tercantum tegas tanpa biaya tersembunyi.</p>
+                    </div>
+                    <div class="p-4 rounded-xl border border-[#EFECE5] bg-white shadow-card-soft flex flex-col sm:flex-row sm:items-baseline gap-1.5 sm:gap-4">
+                        <span class="text-xs font-bold uppercase tracking-wider text-gold-600 shrink-0 w-28" data-i18n-en="03 • WARRANTY" data-i18n-id="03 • GARANSI">03 • GARANSI</span>
+                        <p class="text-xs sm:text-sm text-[#4A5668]" data-i18n-en="Handover &amp; After-Sales: Formal testing protocols, self-maintenance client training, and long-term genuine OEM spare parts availability." data-i18n-id="Serah Terima &amp; Purna Jual: Dilengkapi berita acara pengujian, edukasi operasional mandiri, dan ketersediaan suku cadang resmi."><strong class="text-navy-900">Serah Terima &amp; Purna Jual:</strong> Dilengkapi berita acara pengujian, edukasi operasional mandiri, dan ketersediaan suku cadang resmi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Visi, Misi & Tim Spesialis -->
+            <div class="lg:col-span-5 space-y-6">
+                <div class="bg-navy-900 text-white rounded-2xl p-7 sm:p-8 space-y-6 shadow-xl">
+                    <div>
+                        <span class="text-[11px] font-bold uppercase tracking-[0.16em] text-gold-400" data-i18n-en="Corporate Vision" data-i18n-id="Visi Perusahaan">Visi Perusahaan</span>
+                        <p class="font-serif text-lg font-medium text-white mt-2 leading-relaxed" data-i18n-en="To be Indonesia's most trusted pool and koi pond specialist partner, delivering zero-leak construction, energy-efficient circulation systems, and enduring after-sales technical support." data-i18n-id="Menjadi mitra spesialis kolam renang dan kolam hias terpercaya di Indonesia yang menghadirkan konstruksi bebas bocor, sirkulasi efisien, dan layanan purna jual berkesinambungan.">
+                            Menjadi mitra spesialis kolam renang dan kolam hias terpercaya di Indonesia yang menghadirkan konstruksi bebas bocor, sirkulasi efisien, dan layanan purna jual berkesinambungan.
+                        </p>
+                    </div>
+                    <div class="border-t border-white/10 pt-5">
+                        <span class="text-[11px] font-bold uppercase tracking-[0.16em] text-gold-400" data-i18n-en="Mission &amp; Technical Commitments" data-i18n-id="Misi &amp; Komitmen Teknis">Misi &amp; Komitmen Teknis</span>
+                        <ul class="mt-2.5 space-y-2.5 text-xs sm:text-sm text-white/80 leading-relaxed">
+                            <li class="flex items-start gap-2.5">
+                                <span class="text-gold-400 font-bold">•</span>
+                                <span data-i18n-en="Enforce strict structural standards, seamless waterproofing barriers, and pressure-tested plumbing across all projects." data-i18n-id="Menerapkan standar pengerjaan konstruksi yang rapi, pelapisan kedap air, dan uji tekan perpipaan menyeluruh di setiap proyek.">Menerapkan standar pengerjaan konstruksi yang rapi, pelapisan kedap air, dan uji tekan perpipaan menyeluruh di setiap proyek.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="text-gold-400 font-bold">•</span>
+                                <span data-i18n-en="Provide genuine certified pumps, filters, chemicals, and spare parts sourced from 15 global partner brands." data-i18n-id="Menyediakan pengadaan peralatan pompa, filter, kimia, dan suku cadang dari 15 merek resmi bergaransi.">Menyediakan pengadaan peralatan pompa, filter, kimia, dan suku cadang dari 15 merek resmi bergaransi.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <span class="text-gold-400 font-bold">•</span>
+                                <span data-i18n-en="Deliver transparent technical consultations, scheduled routine maintenance, and ongoing water chemistry education." data-i18n-id="Memberikan pendampingan konsultasi teknis, perawatan rutin, dan edukasi kualitas air secara transparan.">Memberikan pendampingan konsultasi teknis, perawatan rutin, dan edukasi kualitas air secara transparan.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                                    <div class="bg-cream-50 border border-[#EAE5DC] rounded-2xl overflow-hidden shadow-card-soft grid grid-cols-1 sm:grid-cols-12 items-stretch">
+                        <div class="sm:col-span-5 min-h-[180px] bg-white border-b sm:border-b-0 sm:border-r border-[#EAE5DC] flex flex-col items-center justify-center p-6 text-center">
+                            <img alt="Logo Resmi Dunia Pool &amp; Pond" class="h-16 sm:h-[72px] w-auto object-contain" loading="lazy" src="/images/brand/logo-dpp.png?v=1163858c" />
+                            <span class="font-sans font-extrabold text-[11px] uppercase tracking-[0.14em] text-navy-900 mt-3 leading-none">DUNIA POOL &amp; POND</span>
+                            <span class="text-[10px] font-semibold text-gold-700 tracking-wider uppercase mt-1">Est. 10 Agustus 1997</span>
+                        </div>
+                        <div class="sm:col-span-7 p-5 sm:p-6 flex flex-col justify-center space-y-2">
+                            <p class="text-[10.5px] font-bold uppercase tracking-[0.15em] text-gold-600">THE POOL SPECIALIST</p>
+                            <h3 class="font-serif font-semibold text-lg text-navy-900 leading-snug" data-i18n-en="Direct Field Practitioner Guidance" data-i18n-id="Pendampingan Langsung Praktisi Lapangan">Pendampingan Langsung Praktisi Lapangan</h3>
+                            <p class="text-xs text-[#556275] leading-relaxed" data-i18n-en="Handled directly by our experienced technical team in Padalarang, West Bandung without third-party middlemen." data-i18n-id="Ditangani langsung oleh tim teknis berpengalaman di Padalarang, Bandung Barat tanpa perantara pihak ketiga.">
+                                Ditangani langsung oleh tim teknis berpengalaman di Padalarang, Bandung Barat tanpa perantara pihak ketiga.
+                            </p>
+                            <div class="pt-1">
+                                <a class="inline-flex items-center gap-1.5 text-xs font-bold text-navy-900 hover:text-gold-600 transition-colors" href="https://wa.me/6282118075560?text=Halo%20Dunia%20Pool%20%26%20Pond%2C%20saya%20ingin%20berkonsultasi%20mengenai%20rencana%20pembuatan%20%2F%20perbaikan%20kolam%20renang." rel="noopener noreferrer" target="_blank">
+                                    <span data-i18n-en="Contact Technicians: 0821-1807-5560" data-i18n-id="Hubungi Teknisi: 0821-1807-5560">Hubungi Teknisi: 0821-1807-5560</span>
+                                    <svg aria-hidden="true" class="w-3.5 h-3.5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h12m0 0l-4-4m4 4l-4 4"/></svg>                                </a>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+    <!-- Evaluasi Sebelum Memulai (4 Pain Points) -->
+    <section class="py-16 sm:py-20 bg-cream-50 border-t border-[#EFECE5]">
+        <div class="max-w-[1260px] mx-auto px-5 sm:px-8 lg:px-10">
+            <div class="max-w-2xl mb-9">
+                <p class="text-[11px] font-bold uppercase tracking-[0.16em] text-gold-600" data-i18n-en="PRE-CONSTRUCTION EVALUATION" data-i18n-id="EVALUASI SEBELUM MEMULAI">EVALUASI SEBELUM MEMULAI</p>
+                <h2 class="font-serif text-2xl sm:text-3xl font-semibold text-navy-900 mt-1.5" data-i18n-en="Avoid Common Pitfalls in Pool Construction" data-i18n-id="Hindari Kesalahan Teknis dalam Membangun Kolam Renang">Hindari Kesalahan Teknis dalam Membangun Kolam Renang</h2>
+                <p class="text-xs sm:text-sm text-[#556275] leading-relaxed mt-2" data-i18n-en="Many property owners face staggering repair costs because initial construction lacked proper circulation sizing and structural waterproofing methods." data-i18n-id="Banyak pemilik properti mengalami pembengkakan biaya perbaikan akibat pengerjaan awal tanpa perhitungan sirkulasi dan struktur kedap air yang tepat.">
+                    Banyak pemilik properti mengalami pembengkakan biaya perbaikan akibat pengerjaan awal tanpa perhitungan sirkulasi dan struktur kedap air yang tepat.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                                    <article class="bg-white border border-[#EFECE5] rounded-xl p-6 shadow-card-soft flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-full bg-navy-900 text-gold-400 font-sans font-bold text-xs flex items-center justify-center mb-4">
+                                01                            </div>
+                            <h3 class="font-bold text-sm text-navy-900 leading-snug" data-i18n-en="Contractors Lacking Design &amp; Circulation Expertise" data-i18n-id="Kontraktor Tidak Paham Desain &amp; Sirkulasi">Kontraktor Tidak Paham Desain &amp; Sirkulasi</h3>
+                            <p class="text-xs text-[#556275] leading-relaxed mt-2.5" data-i18n-en="Hiring builders without pool circulation or plumbing expertise leads to severe daily maintenance issues, stagnant water, and structural cracks." data-i18n-id="Memilih kontraktor yang tidak memahami tata letak dan sistem sirkulasi/plumbing justru menyulitkan perawatan harian dan memicu kebocoran struktural.">Memilih kontraktor yang tidak memahami tata letak dan sistem sirkulasi/plumbing justru menyulitkan perawatan harian dan memicu kebocoran struktural.</p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-[#F0ECE2]">
+                            <p class="text-[11.5px] font-semibold text-[#B42318] border-l-2 border-[#B42318] pl-2.5" data-i18n-en="Stagnant flow &amp; deteriorating shell risks" data-i18n-id="Risiko sirkulasi mati &amp; struktur keropos">
+                                Risiko sirkulasi mati &amp; struktur keropos                            </p>
+                        </div>
+                    </article>
+                                    <article class="bg-white border border-[#EFECE5] rounded-xl p-6 shadow-card-soft flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-full bg-navy-900 text-gold-400 font-sans font-bold text-xs flex items-center justify-center mb-4">
+                                02                            </div>
+                            <h3 class="font-bold text-sm text-navy-900 leading-snug" data-i18n-en="Overpriced Construction &amp; Hidden Markups" data-i18n-id="Biaya Pembuatan Kelewat Mahal">Biaya Pembuatan Kelewat Mahal</h3>
+                            <p class="text-xs text-[#556275] leading-relaxed mt-2.5" data-i18n-en="Civil materials, waterproofing membranes, and finishing equipment are poorly specified and subjected to excessive markups without transparent costing." data-i18n-id="Bahan sipil, semen waterproofing, maupun mesin finishing tidak sesuai spesifikasi dan mengalami markup berlebihan (overprice) tanpa kalkulasi transparan.">Bahan sipil, semen waterproofing, maupun mesin finishing tidak sesuai spesifikasi dan mengalami markup berlebihan (overprice) tanpa kalkulasi transparan.</p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-[#F0ECE2]">
+                            <p class="text-[11.5px] font-semibold text-[#B42318] border-l-2 border-[#B42318] pl-2.5" data-i18n-en="Unclear BOQ &amp; budget overruns" data-i18n-id="RAB tidak jelas &amp; pembengkakan anggaran">
+                                RAB tidak jelas &amp; pembengkakan anggaran                            </p>
+                        </div>
+                    </article>
+                                    <article class="bg-white border border-[#EFECE5] rounded-xl p-6 shadow-card-soft flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-full bg-navy-900 text-gold-400 font-sans font-bold text-xs flex items-center justify-center mb-4">
+                                03                            </div>
+                            <h3 class="font-bold text-sm text-navy-900 leading-snug" data-i18n-en="Unpredictable Timelines &amp; Severe Delays" data-i18n-id="Pengerjaan Lama &amp; Molor">Pengerjaan Lama &amp; Molor</h3>
+                            <p class="text-xs text-[#556275] leading-relaxed mt-2.5" data-i18n-en="Sluggish performance and undefined schedules arise when contractors lack formal project management, concrete cure SOPs, and pressure test phases." data-i18n-id="Kinerja lamban dan jadwal proyek tidak pasti karena pelaksana tidak memiliki manajemen proyek serta SOP tahapan pengecoran dan uji tekan yang jelas.">Kinerja lamban dan jadwal proyek tidak pasti karena pelaksana tidak memiliki manajemen proyek serta SOP tahapan pengecoran dan uji tekan yang jelas.</p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-[#F0ECE2]">
+                            <p class="text-[11.5px] font-semibold text-[#B42318] border-l-2 border-[#B42318] pl-2.5" data-i18n-en="Disorganized timelines without delivery commitments" data-i18n-id="Jadwal berantakan tanpa kepastian timeline">
+                                Jadwal berantakan tanpa kepastian timeline                            </p>
+                        </div>
+                    </article>
+                                    <article class="bg-white border border-[#EFECE5] rounded-xl p-6 shadow-card-soft flex flex-col justify-between">
+                        <div>
+                            <div class="w-10 h-10 rounded-full bg-navy-900 text-gold-400 font-sans font-bold text-xs flex items-center justify-center mb-4">
+                                04                            </div>
+                            <h3 class="font-bold text-sm text-navy-900 leading-snug" data-i18n-en="Substandard Finishing &amp; Hidden Leakage" data-i18n-id="Finishing Buruk &amp; Mudah Bocor">Finishing Buruk &amp; Mudah Bocor</h3>
+                            <p class="text-xs text-[#556275] leading-relaxed mt-2.5" data-i18n-en="Hundreds of millions spent, yet tiles crack, plaster flakes, and pump motors scream due to incorrect suction pipe sizing and poor waterproofing." data-i18n-id="Menghabiskan ratusan juta rupiah namun nat keramik berantakan, plesteran retak, dan suara mesin bising akibat kesalahan diameter pipa hisap.">Menghabiskan ratusan juta rupiah namun nat keramik berantakan, plesteran retak, dan suara mesin bising akibat kesalahan diameter pipa hisap.</p>
+                        </div>
+                        <div class="mt-5 pt-3 border-t border-[#F0ECE2]">
+                            <p class="text-[11.5px] font-semibold text-[#B42318] border-l-2 border-[#B42318] pl-2.5" data-i18n-en="Severe leakage &amp; irreversible pump cavitation" data-i18n-id="Kebocoran fatal &amp; kavitasi di kemudian hari">
+                                Kebocoran fatal &amp; kavitasi di kemudian hari                            </p>
+                        </div>
+                    </article>
+                            </div>
+        </div>
+    </section>
+</main>
+
+
+    <!-- PRE-FOOTER COLLABORATION / CONSULTATION CTA BANNER -->
+    <section class="relative overflow-hidden bg-[#081728] border-t border-b border-white/[0.08]">
+        <!-- Subtle Golden Ambient Glow & Geometric Angular Monogram Motif on Right -->
+        <div aria-hidden="true" class="pointer-events-none absolute inset-y-0 right-0 w-full max-w-xl overflow-hidden">
+            <div class="absolute -right-12 -top-16 w-80 h-80 rounded-full bg-gold-400/15 blur-3xl"></div>
+            <svg class="absolute right-0 bottom-0 h-full w-auto text-gold-400 opacity-30" viewBox="0 0 340 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M165 160L235 28L305 160H282L235 72L188 160H165Z" fill="url(#ctaChevron1)" />
+                <path d="M235 160L298 42L361 160H338L298 85L258 160H235Z" fill="url(#ctaChevron2)" />
+                <defs>
+                    <linearGradient id="ctaChevron1" x1="235" y1="28" x2="235" y2="160" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#E8C278" stop-opacity="0.85" />
+                        <stop offset="100%" stop-color="#B8893A" stop-opacity="0.15" />
+                    </linearGradient>
+                    <linearGradient id="ctaChevron2" x1="298" y1="42" x2="298" y2="160" gradientUnits="userSpaceOnUse">
+                        <stop offset="0%" stop-color="#DFB465" stop-opacity="0.55" />
+                        <stop offset="100%" stop-color="#081728" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+
+        <div class="max-w-[1260px] mx-auto px-5 sm:px-8 lg:px-10 py-11 sm:py-12 relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+            <div>
+                <h2
+                    class="font-serif text-xl sm:text-2xl lg:text-[27px] font-semibold text-gold-400 leading-snug"
+                    data-i18n-en="Optimize Your Property with a Precision-Engineered Pool"
+                    data-i18n-id="Wujudkan Kolam Renang Berkualitas &amp; Bebas Bocor Bersama Spesialis"
+                >
+                    Wujudkan Kolam Renang Berkualitas &amp; Bebas Bocor Bersama Spesialis
+                </h2>
+                <p
+                    class="text-white/80 text-xs sm:text-sm mt-1.5"
+                    data-i18n-en="Consult your pool layout, circulation system, renovation, or equipment needs directly with our technical team since 1997."
+                    data-i18n-id="Konsultasikan rancangan lahan, sistem sirkulasi, renovasi, maupun pengadaan mesin bersama tim teknis kami sejak 1997."
+                >
+                    Konsultasikan rancangan lahan, sistem sirkulasi, renovasi, maupun pengadaan mesin bersama tim teknis kami sejak 1997.
+                </p>
+            </div>
+            <div class="shrink-0 flex flex-wrap items-center gap-3">
+                <a
+                    class="inline-flex items-center justify-center gap-2.5 bg-gold-400 hover:bg-gold-300 text-navy-950 font-semibold text-xs sm:text-sm px-6 h-11 rounded-md shadow-md transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-gold-300 focus:ring-offset-2 focus:ring-offset-navy-900"
+                    href="https://wa.me/6282118075560?text=Halo%20Dunia%20Pool%20%26%20Pond%2C%20saya%20ingin%20berkonsultasi%20mengenai%20kebutuhan%20kolam%20renang."
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    <span data-i18n-en="WhatsApp: 0821-1807-5560" data-i18n-id="WhatsApp: 0821-1807-5560">WhatsApp: 0821-1807-5560</span>
+                    <svg aria-hidden="true" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.188 8.188 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01Z"/></svg>                </a>
+                <a
+                    class="inline-flex items-center justify-center gap-2 border border-white/30 hover:border-gold-400 text-white hover:text-gold-300 font-medium text-xs sm:text-sm px-5 h-11 rounded-md transition-colors duration-150"
+                    href="/kontak"
+                >
+                    <span data-i18n-en="Consultation Form" data-i18n-id="Formulir Konsultasi">Formulir Konsultasi</span>
+                    <svg aria-hidden="true" class="w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h12m0 0l-4-4m4 4l-4 4"/></svg>                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- MAIN CORPORATE FOOTER -->
+<footer class="bg-navy-850 text-white mt-auto">
+    <div class="max-w-[1260px] mx-auto px-5 sm:px-8 lg:px-10 pt-14 pb-12">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
+            <!-- Column 1: Brand & Socials -->
+            <div class="sm:col-span-2 lg:col-span-4 space-y-5 pr-0 lg:pr-6">
+                <a aria-label="Dunia Pool &amp; Pond — Beranda" class="inline-block focus:outline-none focus:ring-2 focus:ring-gold-400 rounded-md" href="/">
+                        <span class="inline-flex items-center gap-3 select-none">
+        <span class="inline-flex items-center justify-center rounded-md bg-white border border-gold-400/40 shadow-sm shrink-0 h-9 sm:h-10 px-2.5 py-1.5">
+            <img alt="" aria-hidden="true" class="h-full w-auto object-contain" src="/images/brand/logo-dpp.png?v=1163858c" />
+        </span>
+        <span class="flex flex-col text-left">
+            <span class="font-sans font-bold text-white uppercase leading-none text-[15px] sm:text-[17px] tracking-[0.13em]">DUNIA POOL &amp; POND</span>
+            <span class="font-sans font-semibold text-gold-400/90 uppercase leading-none mt-1.5 text-[9.5px] sm:text-[10px] tracking-[0.24em]">THE POOL SPECIALIST • 1997</span>
+        </span>
+    </span>                </a>
+                <p
+                    class="text-white/70 text-xs sm:text-[13px] leading-relaxed max-w-xs"
+                    data-i18n-en="Dunia Pool &amp; Pond is a swimming pool construction, circulation &amp; filtration engineering, equipment supply, and water maintenance specialist established on August 10, 1997."
+                    data-i18n-id="Dunia Pool &amp; Pond adalah spesialis konstruksi kolam renang, sistem sirkulasi &amp; filtrasi, pengadaan peralatan filter &amp; pompa, serta pemeliharaan air profesional sejak 10 Agustus 1997."
+                >
+                    Dunia Pool &amp; Pond adalah spesialis konstruksi kolam renang, sistem sirkulasi &amp; filtrasi, pengadaan peralatan filter &amp; pompa, serta pemeliharaan air profesional sejak 10 Agustus 1997.
+                </p>
+                <div class="flex items-center gap-2.5 pt-1">
+                    <!-- WhatsApp -->
+                    <a aria-label="WhatsApp Resmi Dunia Pool &amp; Pond" class="w-9 h-9 rounded-full border border-white/25 hover:border-gold-400 hover:text-gold-400 text-white/85 flex items-center justify-center transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-gold-400" href="https://wa.me/6282118075560" rel="noopener noreferrer" target="_blank">
+                        <svg aria-hidden="true" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23-1.48 0-2.93-.39-4.19-1.15l-.3-.17-3.12.82.83-3.04-.2-.32a8.188 8.188 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31-.22.25-.87.86-.87 2.07 0 1.22.89 2.39 1 2.56.14.17 1.76 2.67 4.25 3.73.59.27 1.05.42 1.41.53.59.19 1.13.16 1.56.1.48-.07 1.46-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.16-.48-.27-.25-.14-1.47-.74-1.69-.82-.23-.08-.37-.12-.56.12-.16.25-.64.81-.78.97-.15.17-.29.19-.53.07-.26-.13-1.06-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.12-.24-.01-.39.11-.5.11-.11.27-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.11-.56-1.35-.77-1.84-.2-.48-.4-.42-.56-.43-.14 0-.3-.01-.47-.01Z"/></svg>                    </a>
+                    <!-- Instagram -->
+                    <a aria-label="Instagram @duniapoolnpond" class="w-9 h-9 rounded-full border border-white/25 hover:border-gold-400 hover:text-gold-400 text-white/85 flex items-center justify-center transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-gold-400" href="https://www.instagram.com/duniapoolnpond/" rel="noopener noreferrer" target="_blank">
+                        <svg aria-hidden="true" class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                            <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3Z" />
+                        </svg>
+                    </a>
+                    <!-- YouTube -->
+                    <a aria-label="YouTube Dunia Pool &amp; Pond" class="w-9 h-9 rounded-full border border-white/25 hover:border-gold-400 hover:text-gold-400 text-white/85 flex items-center justify-center transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-gold-400" href="https://youtu.be/I52l1338954?si=0qZSMHI5d7VRCQGS" rel="noopener noreferrer" target="_blank">
+                        <svg aria-hidden="true" class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                            <path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81ZM9.55 15.57V8.43L15.82 12l-6.27 3.57Z" />
+                        </svg>
+                    </a>
+                    <!-- Google Maps -->
+                    <a aria-label="Lokasi Google Maps Dunia Pool &amp; Pond" class="w-9 h-9 rounded-full border border-white/25 hover:border-gold-400 hover:text-gold-400 text-white/85 flex items-center justify-center transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-gold-400" href="https://www.google.com/maps/place/Alat+Kolam+Renang+Bandung+Barat/data=!4m2!3m1!1s0x2e68e331a6058d93:0x6f8552486c06e786?sa=X&amp;ved=1t:242&amp;hl=id&amp;ictx=111" rel="noopener noreferrer" target="_blank">
+                        <svg aria-hidden="true" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" viewBox="0 0 24 24">
+                            <path d="M12 21s-7-5.6-7-11a7 7 0 1 1 14 0c0 5.4-7 11-7 11Z" />
+                            <circle cx="12" cy="10" r="2.5" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Column 2: Navigasi -->
+            <div class="lg:col-span-2 space-y-3.5">
+                <h3 class="text-xs font-bold text-white tracking-wide" data-i18n-en="Navigation" data-i18n-id="Navigasi">Navigasi</h3>
+                <ul class="space-y-2.5 text-xs text-white/70">
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Home" data-i18n-id="Beranda" href="/">Beranda</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="About Us" data-i18n-id="Tentang Kami" href="/tentang-kami">Tentang Kami</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Our Services" data-i18n-id="Layanan Kami" href="/layanan">Layanan Kami</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Project Portfolio" data-i18n-id="Dokumentasi Proyek" href="/proyek">Dokumentasi Proyek</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Gallery" data-i18n-id="Galeri" href="/galeri">Galeri</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Project SOP" data-i18n-id="Manajemen Proyek" href="/manajemen-proyek">Manajemen Proyek</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Product Catalog" data-i18n-id="Katalog Produk" href="/produk">Katalog Produk</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Contact Us" data-i18n-id="Kontak Teknis" href="/kontak">Kontak Teknis</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: Layanan Kami -->
+            <div class="lg:col-span-2 space-y-3.5">
+                <h3 class="text-xs font-bold text-white tracking-wide" data-i18n-en="Our Services" data-i18n-id="Layanan Kami">Layanan Kami</h3>
+                <ul class="space-y-2.5 text-xs text-white/70">
+                                            <li>
+                            <a
+                                class="hover:text-gold-400 transition-colors"
+                                data-i18n-en="Design &amp; Consultation"
+                                data-i18n-id="Desain &amp; Konsultasi"
+                                href="/layanan#desain-konsultasi"
+                            >Desain &amp; Konsultasi</a>
+                        </li>
+                                            <li>
+                            <a
+                                class="hover:text-gold-400 transition-colors"
+                                data-i18n-en="Pool Construction"
+                                data-i18n-id="Konstruksi Kolam Renang"
+                                href="/layanan#konstruksi-kolam"
+                            >Konstruksi Kolam Renang</a>
+                        </li>
+                                            <li>
+                            <a
+                                class="hover:text-gold-400 transition-colors"
+                                data-i18n-en="Renovation &amp; Repair"
+                                data-i18n-id="Renovasi &amp; Perbaikan"
+                                href="/layanan#renovasi-perbaikan"
+                            >Renovasi &amp; Perbaikan</a>
+                        </li>
+                                            <li>
+                            <a
+                                class="hover:text-gold-400 transition-colors"
+                                data-i18n-en="Circulation &amp; Filtration"
+                                data-i18n-id="Sirkulasi &amp; Filtrasi"
+                                href="/layanan#sirkulasi-filtrasi"
+                            >Sirkulasi &amp; Filtrasi</a>
+                        </li>
+                                            <li>
+                            <a
+                                class="hover:text-gold-400 transition-colors"
+                                data-i18n-en="Equipment &amp; Spare Parts"
+                                data-i18n-id="Peralatan &amp; Suku Cadang"
+                                href="/produk"
+                            >Peralatan &amp; Suku Cadang</a>
+                        </li>
+                                            <li>
+                            <a
+                                class="hover:text-gold-400 transition-colors"
+                                data-i18n-en="Maintenance &amp; Water Care"
+                                data-i18n-id="Perawatan &amp; Kimia Air"
+                                href="/layanan#perawatan-kolam"
+                            >Perawatan &amp; Kimia Air</a>
+                        </li>
+                                    </ul>
+            </div>
+
+            <!-- Column 4: Katalog Produk -->
+            <div class="lg:col-span-2 space-y-3.5">
+                <h3 class="text-xs font-bold text-white tracking-wide" data-i18n-en="Product Catalog" data-i18n-id="Katalog Produk">Katalog Produk</h3>
+                <ul class="space-y-2.5 text-xs text-white/70">
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Swimming Pool Pumps" data-i18n-id="Pompa Kolam Renang" href="/produk#pompa">Pompa Kolam Renang</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Sand &amp; Cartridge Filters" data-i18n-id="Filter Kolam Renang" href="/produk#filter">Filter Kolam Renang</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Cleaning Equipment" data-i18n-id="Peralatan Pembersih" href="/produk#cleaner">Peralatan Pembersih</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Pool Chemicals" data-i18n-id="Bahan Kimia Kolam" href="/produk#chemical">Bahan Kimia Kolam</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="LED Lights &amp; Fittings" data-i18n-id="Lampu &amp; Fitting Pipa" href="/produk#lighting">Lampu &amp; Fitting Pipa</a></li>
+                    <li><a class="hover:text-gold-400 transition-colors" data-i18n-en="Mosaic &amp; Spare Parts" data-i18n-id="Mozaik &amp; Suku Cadang" href="/produk#finishing">Mozaik &amp; Suku Cadang</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 5: Kontak -->
+            <div class="sm:col-span-2 lg:col-span-2 space-y-3.5">
+                <h3 class="text-xs font-bold text-white tracking-wide" data-i18n-en="Official Contact" data-i18n-id="Kontak Resmi">Kontak Resmi</h3>
+                <ul class="space-y-3 text-xs text-white/70">
+                    <li class="flex items-start gap-2.5">
+                        <svg aria-hidden="true" class="w-4 h-4 text-gold-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24">
+                            <path d="M12 21s-7-5.6-7-11a7 7 0 1 1 14 0c0 5.4-7 11-7 11Z" />
+                            <circle cx="12" cy="10" r="2.5" />
+                        </svg>
+                        <a class="leading-relaxed hover:text-gold-400 transition-colors" href="https://www.google.com/maps/place/Alat+Kolam+Renang+Bandung+Barat/data=!4m2!3m1!1s0x2e68e331a6058d93:0x6f8552486c06e786?sa=X&amp;ved=1t:242&amp;hl=id&amp;ictx=111" rel="noopener noreferrer" target="_blank">
+                            Gg. Karya Bakti No. 24, RT.05/RW.22, Kertamulya,<br />
+                            Kec. Padalarang, Kab. Bandung Barat 40553
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-2.5">
+                        <svg aria-hidden="true" class="w-4 h-4 text-gold-400 shrink-0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.58 2.81.7A2 2 0 0 1 22 16.92Z" />
+                        </svg>
+                        <a class="hover:text-gold-400 transition-colors font-semibold text-white/90" href="https://wa.me/6282118075560" rel="noopener noreferrer" target="_blank">0821-1807-5560 (WhatsApp)</a>
+                    </li>
+                    <li class="flex items-start gap-2.5">
+                        <svg aria-hidden="true" class="w-4 h-4 text-gold-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.6" viewBox="0 0 24 24">
+                            <circle cx="12" cy="12" r="9" />
+                            <path d="M12 7v5l3 2" />
+                        </svg>
+                        <span data-i18n-en="Mon – Sat, 08:00 – 17:00 WIB" data-i18n-id="Senin – Sabtu, 08:00 – 17:00 WIB">Senin – Sabtu, 08:00 – 17:00 WIB</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bottom Copyright Bar -->
+    <div class="border-t border-white/[0.08] bg-navy-900/70">
+        <div class="max-w-[1260px] mx-auto px-5 sm:px-8 lg:px-10 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11.5px] text-white/60">
+            <p>© 1997–2026 Dunia Pool &amp; Pond. The Pool Specialist — Padalarang, Bandung Barat.</p>
+            <div class="flex flex-wrap items-center justify-center gap-3">
+                <a class="hover:text-gold-400 transition-colors" href="/sitemap">Sitemap</a>
+                <span aria-hidden="true" class="text-white/25">|</span>
+                <a class="hover:text-gold-400 transition-colors" data-i18n-en="Privacy Policy" data-i18n-id="Kebijakan Privasi" href="/kebijakan-privasi">Kebijakan Privasi</a>
+                <span aria-hidden="true" class="text-white/25">|</span>
+                <a class="hover:text-gold-400 transition-colors" data-i18n-en="Terms of Service" data-i18n-id="Ketentuan Layanan" href="/ketentuan-layanan">Ketentuan Layanan</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+    (function () {
+        // Mobile Drawer
+        const mobileBtn = document.getElementById('mobileMenuBtn');
+        const mobileDrawer = document.getElementById('mobileNavDrawer');
+        if (mobileBtn && mobileDrawer) {
+            mobileBtn.addEventListener('click', () => {
+                const isHidden = mobileDrawer.classList.toggle('hidden');
+                mobileBtn.setAttribute('aria-expanded', String(!isHidden));
+            });
+        }
+
+        // Language Switcher (ID / EN)
+        const langBtn = document.getElementById('langDropdownBtn');
+        const langMenu = document.getElementById('langDropdownMenu');
+        const currentLangLabel = document.getElementById('currentLangLabel');
+
+        function applyLanguage(lang) {
+            const normalized = lang === 'en' ? 'en' : 'id';
+            document.documentElement.lang = normalized;
+            if (currentLangLabel) {
+                currentLangLabel.textContent = normalized.toUpperCase();
+            }
+
+            // 1. Plain text translations
+            document.querySelectorAll('[data-i18n-id]').forEach(el => {
+                const text = el.getAttribute(normalized === 'en' ? 'data-i18n-en' : 'data-i18n-id');
+                if (text !== null && text !== undefined) {
+                    if (el.tagName === 'OPTION') {
+                        el.textContent = text;
+                    } else if (el.children.length === 1 && el.firstElementChild.tagName === 'SPAN' && !el.firstElementChild.hasAttribute('aria-hidden')) {
+                        el.firstElementChild.textContent = text;
+                    } else if (el.children.length === 0) {
+                        el.textContent = text;
+                    } else {
+                        const firstSpan = el.querySelector(':scope > span:not([aria-hidden="true"])');
+                        if (firstSpan) {
+                            firstSpan.textContent = text;
+                        } else {
+                            el.textContent = text;
+                        }
+                    }
+                }
+            });
+
+            // 2. Formatted HTML translations
+            document.querySelectorAll('[data-i18n-html-id]').forEach(el => {
+                const html = el.getAttribute(normalized === 'en' ? 'data-i18n-html-en' : 'data-i18n-html-id');
+                if (html !== null && html !== undefined) {
+                    el.innerHTML = html;
+                }
+            });
+
+            // 3. Input & Textarea Placeholders
+            document.querySelectorAll('[data-i18n-placeholder-id]').forEach(el => {
+                const placeholder = el.getAttribute(normalized === 'en' ? 'data-i18n-placeholder-en' : 'data-i18n-placeholder-id');
+                if (placeholder !== null && placeholder !== undefined) {
+                    el.placeholder = placeholder;
+                }
+            });
+
+            // 4. Title / Tooltip Attributes
+            document.querySelectorAll('[data-i18n-title-id]').forEach(el => {
+                const titleVal = el.getAttribute(normalized === 'en' ? 'data-i18n-title-en' : 'data-i18n-title-id');
+                if (titleVal !== null && titleVal !== undefined) {
+                    el.setAttribute('title', titleVal);
+                }
+            });
+
+            // 5. Active indicator marks, flags & highlight color in dropdown
+            document.querySelectorAll('.lang-check-id').forEach(el => el.classList.toggle('hidden', normalized !== 'id'));
+            document.querySelectorAll('.lang-check-en').forEach(el => el.classList.toggle('hidden', normalized !== 'en'));
+            document.querySelectorAll('.lang-flag-id').forEach(el => el.classList.toggle('hidden', normalized !== 'id'));
+            document.querySelectorAll('.lang-flag-en').forEach(el => el.classList.toggle('hidden', normalized !== 'en'));
+            document.querySelectorAll('[data-set-lang]').forEach(btn => {
+                const isSelected = btn.getAttribute('data-set-lang') === normalized;
+                btn.classList.toggle('text-gold-400', isSelected);
+                btn.classList.toggle('text-white/85', !isSelected);
+            });
+
+            // 6. Persistence in localStorage & cookie (for server-side detection)
+            try {
+                localStorage.setItem('dpp_lang', normalized);
+                document.cookie = "dpp_lang=" + normalized + ";path=/;max-age=31536000;SameSite=Lax";
+            } catch (e) {}
+
+            // 7. Dispatch event for dynamic page components
+            try {
+                window.dispatchEvent(new CustomEvent('dpp:langchange', { detail: { lang: normalized } }));
+            } catch (e) {}
+        }
+
+        if (langBtn && langMenu) {
+            langBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const isHidden = langMenu.classList.toggle('hidden');
+                langBtn.setAttribute('aria-expanded', String(!isHidden));
+            });
+            langMenu.querySelectorAll('[data-set-lang]').forEach(item => {
+                item.addEventListener('click', () => {
+                    applyLanguage(item.getAttribute('data-set-lang'));
+                    langMenu.classList.add('hidden');
+                    langBtn.setAttribute('aria-expanded', 'false');
+                });
+            });
+            document.addEventListener('click', (e) => {
+                if (!langMenu.contains(e.target) && !langBtn.contains(e.target)) {
+                    langMenu.classList.add('hidden');
+                    langBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+
+        try {
+            const savedLang = localStorage.getItem('dpp_lang');
+            if (savedLang === 'en') {
+                applyLanguage('en');
+            }
+        } catch (e) {}
+
+        // Subtle Scroll Reveal
+        const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const revealEls = document.querySelectorAll('.reveal-up');
+        if (!prefersReduced && 'IntersectionObserver' in window && revealEls.length > 0) {
+            const obs = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.08, rootMargin: '0px 0px -24px 0px' });
+
+            revealEls.forEach(el => {
+                if (el.getBoundingClientRect().top < window.innerHeight * 0.92) {
+                    el.classList.add('is-visible');
+                } else {
+                    obs.observe(el);
+                }
+            });
+        } else {
+            revealEls.forEach(el => el.classList.add('is-visible'));
+        }
+    })();
+</script>
+</body>
+</html>

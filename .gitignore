@@ -1,0 +1,7 @@
+*.mov
+dist/images/
+dist/video/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
