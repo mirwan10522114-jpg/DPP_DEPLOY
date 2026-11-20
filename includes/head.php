@@ -71,6 +71,16 @@ $bodyClass = $bodyClass ?? 'bg-white text-navy-900 font-sans antialiased selecti
             }
         }
     </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2TE1QECCQB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2TE1QECCQB');
+    </script>
 </head>
 <body class="<?= e($bodyClass) ?>">
 <a class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] focus:px-4 focus:py-2 focus:rounded-md focus:bg-gold-400 focus:text-navy-900 focus:font-semibold focus:text-sm focus:shadow-lg" href="#main-content">
