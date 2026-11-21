@@ -18,7 +18,7 @@ $mapsBannerUrl = 'https://www.google.com/maps/place/Alat+Kolam+Renang+Bandung+Ba
 $stats = [
     [
         'icon'     => 'stat-building',
-        'value'    => '27+ Thn',
+        'value'    => '29 Tahun+',
         'label'    => 'Pengalaman Sejak - 1997',
         'label_en' => 'Experience Since Aug 10, 1997',
     ],
