@@ -74,8 +74,8 @@ $hydraulicSteps = [
         'num'      => '4',
         'title'    => 'Hydrostatic Pressure Test (Prosedur Wajib)',
         'title_en' => 'Mandatory Hydrostatic Pressure Testing',
-        'desc'     => 'Pemberian tekanan udara/air pada rentang 2.5 hingga 3.0 bar menggunakan pressure test pump selama minimal 24–48 jam sebelum pengecoran beton untuk menjamin 0% kebocoran tersembunyi.',
-        'desc_en'  => 'Static pressure testing at 2.5 to 3.0 bar using pressure test pumps for 24–48 hours before concrete pouring to guarantee zero hidden leaks.',
+        'desc'     => 'Pemberian tekanan udara/air pada rentang 2.5 hingga 3.0 bar menggunakan pressure test pump selama minimal 24–48 jam sebelum pengecoran struktur untuk menjamin 0% kebocoran tersembunyi.',
+        'desc_en'  => 'Static pressure testing at 2.5 to 3.0 bar using pressure test pumps for 24–48 hours before structural pouring to guarantee zero hidden leaks.',
     ],
     [
         'num'      => '5',
