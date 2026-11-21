@@ -166,7 +166,7 @@ $mapsUrl = 'https://www.google.com/maps/place/Alat+Kolam+Renang+Bandung+Barat/da
                             <circle cx="12" cy="10" r="2.5" />
                         </svg>
                         <a class="leading-relaxed hover:text-gold-400 transition-colors" href="<?= e($mapsUrl) ?>" rel="noopener noreferrer" target="_blank">
-                            Gg. Karya Bakti No. 24, RT.05/RW.22, Kertamulya,<br />
+                            Jalan Karya Bakti No. 24, RT.05/RW.22, Kertamulya,<br />
                             Kec. Padalarang, Kab. Bandung Barat 40553
                         </a>
                     </li>

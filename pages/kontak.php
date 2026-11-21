@@ -32,7 +32,7 @@ require __DIR__ . '/../includes/header.php';
                         <div>
                             <p class="text-white font-semibold mb-1" data-i18n-en="Official Address" data-i18n-id="Alamat Resmi">Alamat Resmi</p>
                             <p class="leading-relaxed">
-                                Gg. Karya Bakti No. 24, RT.05/RW.22, Kertamulya,<br />
+                                Jalan Karya Bakti No. 24, RT.05/RW.22, Kertamulya,<br />
                                 Kec. Padalarang, Kabupaten Bandung Barat,<br />
                                 Jawa Barat 40553, Indonesia
                             </p>

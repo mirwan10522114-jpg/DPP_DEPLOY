@@ -466,7 +466,7 @@ require __DIR__ . '/../includes/header.php';
                                 <span data-i18n-en="Office Address :" data-i18n-id="Office Address :">Office Address :</span>
                             </div>
                             <p class="font-sans font-extrabold text-xs sm:text-[13px] text-white leading-snug tracking-wide uppercase">
-                                Gg. Karya Bakti No. 24, RT.05/RW.22, Kertamulya,<br />
+                                Jalan Karya Bakti No. 24, RT.05/RW.22, Kertamulya,<br />
                                 Kec. Padalarang, Bandung, Jawa Barat 40553
                             </p>
                         </div>
