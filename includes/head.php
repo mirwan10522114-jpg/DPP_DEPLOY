@@ -23,7 +23,6 @@ $bodyClass = $bodyClass ?? 'bg-white text-navy-900 font-sans antialiased selecti
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title><?= e($pageTitle) ?></title>
     <meta content="<?= e($metaDescription) ?>" name="description" />
-    <meta name="facebook-domain-verification" content="p67ou49ml97yuy4rlf95133qi8shws" />
     <link href="<?= e(resolve_image('images/brand/favicon-dpp', app_url('/images/brand/favicon-dpp.png'))) ?>" rel="icon" type="image/png" />
 
     <!-- Google Fonts: Playfair Display (Editorial Serif) & Plus Jakarta Sans (Corporate UI Sans) -->
@@ -93,11 +92,11 @@ $bodyClass = $bodyClass ?? 'bg-white text-navy-900 font-sans antialiased selecti
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1001413203026000');
+    fbq('init', '2556612014832848');
     fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1001413203026000&ev=PageView&noscript=1"
+    src="https://www.facebook.com/tr?id=2556612014832848&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Meta Pixel Code -->
 </head>
